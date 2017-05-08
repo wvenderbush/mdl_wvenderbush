@@ -16647,4 +16647,63 @@ WARNING: No t_error rule is defined
 [-15.124148316393327, -28.08411055853941, -25.70873460552105]
 [-1.8221297025473735, -19.196438995420888, -15.840262957614067]
 [-2.507946379339778, -26.42163157072515, -21.80225155036923]
-[3.0920039741966203,
+[3.0920039741966203, -10.071358323769037, -7.486988719055839]
+[5.881341056140503, -19.156861923527824, -14.24109881737273]
+[6.839291331085775, -9.064696701738189, -5.913379756406785]
+[-9.816617222731864, 6.585448238695495, 4.917172983257757]
+[-22.31661770846862, 5.471045905101117, 8.741890965934143]
+[-11.732540246610656, 2.8762990481437263, 4.595884059544904]
+[-32.72542613104887, -2.917543186492437, 10.013241676030193]
+[-23.7764138313049, -2.119719202279059, 7.275045920831561]
+[-37.06723145543339, -15.376163120753217, 8.245612353910316]
+[-31.53127040093667, -13.079745588021577, 7.014136814211406]
+[-33.68361162024228, -27.146044535710296, 4.11417732111323]
+[-32.0350183237868, -25.81742254732572, 3.9128151504386626]
+[-23.8669943975107, -33.73149277440535, -0.8029956621440277]
+[-25.095243015088766, -35.46739041945349, -0.844319604971874]
+[-11.366993911773916, -32.617090440811275, -4.627713644820922]
+[-13.362702768478261, -38.34368946759713, -5.440203664516444]
+[-0.9581854891937015, -24.22850134921755, -5.899064354916677]
+[-1.3188291837838335, -33.34767121717443, -8.119365525803529]
+[3.3836198351909847, -11.769881414956817, -4.13143503279713]
+[6.436027385847585, -22.387644831432134, -7.858456419183044]
+[6.939775308697821, -9.649967872128077, -4.757134755410652]
+('display',)
+^CTraceback (most recent call last):
+  File "main.py", line 5, in <module>
+    run(sys.argv[1])
+  File "/Users/winston/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush/script.py", line 94, in run
+    display(screen)
+  File "/Users/winston/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush/display.py", line 58, in display
+    p.communicate()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 799, in communicate
+    return self._communicate(input)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 1411, in _communicate
+    stdout, stderr = self._communicate_with_select(input)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 1512, in _communicate_with_select
+    rlist, wlist, xlist = select.select(read_set, write_set, [])
+KeyboardInterrupt
+make: *** [test] Error 1
+
+[1m[7m%[27m[1m[0m                                                                                                     ]2;winston@Winstons-MBP: ~/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush]1;..l_wvenderbush[0m[27m[24m[J[01;31m➜  [36mmdl_wvenderbush[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -am "finished"[?1l>[?2004l
+]2;git commit -am "finished"]1;git[master 047c221] finished
+ 3 files changed, 72 insertions(+), 3 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                                     ]2;winston@Winstons-MBP: ~/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush]1;..l_wvenderbush[0m[27m[24m[J[01;32m➜  [36mmdl_wvenderbush[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add -a A[?1l>[?2004l
+]2;git add -A]1;git[1m[7m%[27m[1m[0m                                                                                                     ]2;winston@Winstons-MBP: ~/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush]1;..l_wvenderbush[0m[27m[24m[J[01;32m➜  [36mmdl_wvenderbush[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit commit -am "finished"[?1l>[?2004l
+]2;git commit -am "finished"]1;git[master b16ec92] finished
+ 5 files changed, 16781 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 myscript.mdl
+ create mode 100644 parsetab.py
+ create mode 100644 python.py
+ create mode 100644 somefile
+[1m[7m%[27m[1m[0m                                                                                                     ]2;winston@Winstons-MBP: ~/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush]1;..l_wvenderbush[0m[27m[24m[J[01;32m➜  [36mmdl_wvenderbush[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitCounting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 116.41 KiB | 0 bytes/s, done.
+Total 12 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 3 local objects.[K
+To https://github.com/wvenderbush/mdl_wvenderbush.git
+   0472bc5..b16ec92  master -> master
+[1m[7m%[27m[1m[0m                                                                                                     ]2;winston@Winstons-MBP: ~/Dropbox/Shared Documents/School Work/cs/graphics/mymods/mdl_wvenderbush]1;..l_wvenderbush[0m[27m[24m[J[01;32m➜  [36mmdl_wvenderbush[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h
